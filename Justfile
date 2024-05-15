@@ -74,8 +74,9 @@ inspect: build
 push:
     #!/usr/bin/env nu
     let package = (open package.json)
-    let image = $"($package.registry)/($package.name):($package.version)"
-    ./result | skopeo copy docker-archive:/dev/stdin $"docker://($image)"
+    let image = $"($package.registry)/($package.name)"
+    ./result | skopeo copy docker-archive:/dev/stdin $"docker://($image):($package.version)"
+    ./result | skopeo copy docker-archive:/dev/stdin $"docker://($image):latest"
 
 # Create a new release of this module. LEVEL can be one of: major, minor, patch, premajor, preminor, prepatch, or prerelease.
 release LEVEL="patch" NEW_VERSION="":
