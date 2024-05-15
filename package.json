@@ -1,6 +1,6 @@
 {
   "name": "nushell",
-  "version": "0.92.1.0",
+  "version": "0.92.1-0",
   "registry": "docker.io/jceb",
   "description": "Nushell",
   "author": "Jan Christoph Ebersbach <jceb@e-jc.de>",
