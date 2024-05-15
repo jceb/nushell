@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.92.1-2] - 2024-05-15
+
+### Features
+
+- Publish latest tag
+
 ## [0.92.1-1] - 2024-05-15
 
 ### Bug Fixes
