@@ -32,11 +32,13 @@
         devShells.default = mkShell {
           name = package.name;
           nativeBuildInputs = [
-            just
-            skopeo
             deno
+            gh
+            git-cliff
+            just
             # nodePackages.semver
             nushell_pkg
+            skopeo
           ];
         };
 
