@@ -50,7 +50,7 @@
           # author = "not yet supported";
           maxLayers = 125;
           contents = with pkgs.dockerTools; [
-            # usrBinEnv
+            usrBinEnv
             binSh
             caCertificates
             fakeNss
