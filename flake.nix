@@ -85,12 +85,13 @@
             # Entrypoint = [];
             Cmd = [
               "${nushell_pkg}/bin/nu"
+              "-n"
             ];
             # Env = ["VARNAME=xxx"];
             WorkingDir = "/";
             # User 'nobody' and group 'nogroup'
-            User = "65534";
-            Group = "65534";
+            # User = "65534";
+            # Group = "65534";
             Labels = {
               # Well-known annotations: https://github.com/opencontainers/image-spec/blob/main/annotations.md
               "org.opencontainers.image.authors" =
