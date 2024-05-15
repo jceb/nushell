@@ -1,0 +1,16 @@
+{
+  "name": "nushell",
+  "version": "0.92.1.0",
+  "registry": "jceb/nushell",
+  "description": "Nushell",
+  "author": "Jan Christoph Ebersbach <jceb@e-jc.de>",
+  "contributors": [
+    "Jan Christoph Ebersbach <jceb@e-jc.de>"
+  ],
+  "homepage": "https://github.com/jceb/docker-nushell",
+  "license": "proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jceb/docker-nushell"
+  }
+}

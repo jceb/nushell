@@ -1,0 +1,4 @@
+#!/usr/bin/env -S sh
+set -eu
+# just test
+exit
